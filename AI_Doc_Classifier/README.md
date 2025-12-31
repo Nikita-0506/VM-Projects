@@ -1,109 +1,115 @@
-AI Insurance Document Classification Agent
+## AI Insurance Document Classification Agent 
 
 A hybrid NLP-powered system that analyzes PDF or scanned image documents and automatically classifies them into standard insurance document types:
 
-Invoice
+   a. Invoice
 
-Claim Form
+   b. Claim Form
 
-Insurance Policy
+   c. Insurance Policy
 
-Inspection Report
+   d. Inspection Report
 
 Using OCR extraction + Zero-Shot LLM classification + Sentence Embedding matching + Optional ML classifier, this tool enables batch folder processing, Excel/PDF reporting, and a full Streamlit dashboard with history logging.
 
-This project demonstrates:
+# This project demonstrates:
 
-PDF & Image OCR (pdfplumber + pytesseract)
+   a. PDF & Image OCR (pdfplumber + pytesseract)
 
-Zero-shot text classification (facebook/bart-large-mnli)
+   b. Zero-shot text classification (facebook/bart-large-mnli)
 
-Sentence-Transformer embedding model (all-MiniLM-L6-v2)
+   c. Sentence-Transformer embedding model (all-MiniLM-L6-v2)
 
-Optional ML classifier (TF-IDF + Logistic Regression)
+   d. Optional ML classifier (TF-IDF + Logistic Regression)
 
-Regex metadata extraction (Invoice number, Claim ID, Date)
+   e. Regex metadata extraction (Invoice number, Claim ID, Date)
 
-Streamlit UI with results viewer & export
+   f. Streamlit UI with results viewer & export
 
-SQLite database history tracking
+   g. SQLite database history tracking
+   
 
-1️ Architecture Overview
-Component	Technology
-Backend Engine	Python – CLI Script
-OCR Engine	pdfplumber, pytesseract
-NLP Classification	facebook/bart-large-mnli
-Embedding Similarity	Sentence Transformers
-Optional ML Classifier	TF-IDF Vectorizer + Joblib Model
-UI Interface	Streamlit (app.py)
-Storage	SQLite history.db
-Reporting	ReportLab – PDF Export
-2️ Core Features
-🧠 AI Classification Modes (Priority-Based)
+# 1️ Architecture Overview
+
+Component                      	Technology
+
+Backend Engine              	Python – CLI Script
+OCR Engine	                  pdfplumber, pytesseract
+NLP Classification	          facebook/bart-large-mnli
+Embedding Similarity	        Sentence Transformers
+Optional ML Classifier      	TF-IDF Vectorizer + Joblib Model
+UI Interface                	Streamlit (app.py)
+Storage                     	SQLite history.db
+Reporting                   	ReportLab – PDF Export
+
+
+# 2️ Core Features
+
+# 🧠 AI Classification Modes (Priority-Based)
 
 When classifying a document, system chooses BEST-match using:
 
-Zero-shot model
+   a. Zero-shot model
 
-Embedding similarity
+   b. Embedding similarity
 
-ML TF-IDF classifier (if exists)
+   c. ML TF-IDF classifier (if exists)
 
 Output includes:
 
-Best predicted label
+   a. Best predicted label
 
-Confidence %
+   b. Confidence %
 
-Which AI method was used
-
-🔍 Metadata Extraction (Regex)
+   c. Which AI method was used
+   
+# 🔍 Metadata Extraction (Regex)
 
 Extracts:
 
-Invoice No – INV-XXXX
+   a. Invoice No – INV-XXXX
 
-Claim ID – CLM-XXXX
+   b. Claim ID – CLM-XXXX
 
-Policy ID – PLC-XXXX
+   c. Policy ID – PLC-XXXX
 
-Date – dd/mm/yyyy or dd-mm-yyyy
+   d. Date – dd/mm/yyyy or dd-mm-yyyy
 
-📁 Batch Folder Processing
+# 📁 Batch Folder Processing
 
 Run classification for multiple documents in a directory → auto-generate:
 
-results.xlsx
+   a. results.xlsx
 
-results.pdf
+   b. results.pdf
 
-🖥 Streamlit Application
+# 🖥 Streamlit Application
 
-Upload & classify multiple files
+   a. Upload & classify multiple files
 
-View extracted fields & preview text
+   b. View extracted fields & preview text
 
-Export Excel & PDF
+   c. Export Excel & PDF
 
-History Dashboard (SQLite DB)
+   d. History Dashboard (SQLite DB)
 
-Clear records
+   e. Clear records
 
-A. Install Dependencies
-pip install -r requirements.txt
-
-
-OCR dependency (Windows example):
-
-choco install tesseract
-
-B. Run CLI Script (Terminal)
-python main.py
+# A. Install Dependencies
+   pip install -r requirements.txt
 
 
-CLI example:
+# OCR dependency (Windows example):
 
-📌 Insurance Document Classification – CLI Tool
+   choco install tesseract
+
+# B. Run CLI Script (Terminal)
+   python main.py
+
+
+# CLI example:
+
+" [  📌 Insurance Document Classification – CLI Tool
 
 Choose mode:
 1 – Single File
@@ -117,33 +123,37 @@ Prediction: Invoice
 Confidence: 93.55%
 Method Used: Embedding Classifier
 Invoice No: INV-2203
-Date: 22/10/2024
+Date: 22/10/2024  ] "
 
 
-Batch mode:
+# Batch mode:
 
-python main.py
+"  [ python main.py
 Enter folder path: ./docs/
 Excel file saved → results.xlsx
-PDF report saved → results.pdf
+PDF report saved → results.pdf ]  "
 
-C. Run Streamlit Dashboard
-streamlit run app.py
+# C. Run Streamlit Dashboard
+   streamlit run app.py
 
 
-Visit UI:
+# Visit UI:
 
-http://localhost:8501
+   http://localhost:8501
 
-Dashboard Features
-Feature	Description
-File Upload	Upload multiple PDF / scanned images
-Auto Classification	AI model runs in background
-JSON Results	Label, confidence, metadata
-Download	Excel + PDF output
-History	View previous uploaded results
-Database	Saves logs to history.db
-D. Example JSON Output
+
+# Dashboard Features
+
+Feature            Description
+File Upload	       Upload multiple PDF / scanned images
+Auto               Classification	AI model runs in background
+JSON Results       Label, confidence, metadata
+Download           Excel + PDF output
+History            View previous uploaded results
+Database	         Saves logs to history.db
+
+
+# D. Example JSON Output
 
 (Not actual run output — formatted for documentation)
 
@@ -160,7 +170,8 @@ D. Example JSON Output
   }
 }
 
-3 Folder Structure
+# 3 Folder Structure
+
 │── main.py                     # CLI document classifier
 │── app.py                      # Streamlit dashboard
 │── document_classifier.pkl     # Optional ML model (if trained)
@@ -171,19 +182,20 @@ D. Example JSON Output
 │── requirements.txt
 │── README.md
 
-4 Future Enhancements
+# 4 Future Enhancements
 
-FastAPI backend → REST endpoints (/classify, /upload, /results)
+   a. FastAPI backend → REST endpoints (/classify, /upload, /results)
 
-Azure Blob Storage for file archival
+   b. Azure Blob Storage for file archival
 
-JWT based authentication for dashboard
+   c. JWT based authentication for dashboard
 
-OCR language pack support – Hindi/Marathi
+   d. OCR language pack support – Hindi/Marathi
 
-Smart section extraction → e.g., “Policy Period”, “Premium Due”, “Claim Reason”
+   e. Smart section extraction → e.g., “Policy Period”, “Premium Due”, “Claim Reason”
 
-✨ Developed By
+# ✨ Developed By
 
 Nikita Pachkate
 Data Scientist – Insurance AI Automation Specialist
+
