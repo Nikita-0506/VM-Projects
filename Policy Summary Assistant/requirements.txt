@@ -1,0 +1,39 @@
+# === Core AI / OpenAI ===
+openai>=1.50.0           # Azure OpenAI Python client bindings
+azure-identity>=1.15.0
+python-dotenv>=1.0.1
+
+# === PDF Processing & Text Extraction ===
+pdfplumber>=0.11.0
+PyPDF2>=3.0.1
+fpdf>=1.7.2
+reportlab>=3.6.14
+
+# === Email Handling ===
+yagmail>=0.15.277
+
+# === Frontend Web App ===
+streamlit>=1.35.0
+watchdog>=4.0.0
+
+# === Database / Cache ===
+# SQLite is built-in Python – no external package required
+sqlalchemy>=2.0.23    # Optional ORM support (future scalability)
+
+# === Data Analytics & Visualizations ===
+pandas>=2.2.1
+plotly>=5.19.0
+matplotlib>=3.8.2
+seaborn>=0.13.2
+
+# === Utility ===
+requests>=2.31.0
+python-dateutil>=2.9.0.post0
+
+## Optional Dependencies
+
+# mysql-connector-python    # If migrating DB from SQLite to MySQL
+# langchain                 # For RAG or vector search upgrade
+# chromadb                  # For embedding store
+# tiktoken                  # Token counting optimization
+

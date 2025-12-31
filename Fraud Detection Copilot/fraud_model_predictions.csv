@@ -1,0 +1,41 @@
+claim_id,customer_id,claim_amount,repair_estimate,claim_type,location,previous_claims,days_since_last_claim,description,fraud_probability_ml,fraud_probability_final,risk
+C1061,U2061,22159,115547,Health,Hyderabad,5,46,"Minor accident, bumper scratch",0.038183723,0.75,High
+C1141,U2141,186708,195207,Motor,Mumbai,4,62,Fracture treatment expenses,0.42247808,0.5,Medium
+C1181,U2181,142848,139672,Motor,Delhi,0,215,Phone stolen during travel,0.64008737,0.640087366104126,Medium
+C1187,U2187,26959,190907,Property,Mumbai,1,156,Fracture treatment expenses,0.15439343,0.5,Medium
+C1112,U2112,109488,185479,Property,Nagpur,2,266,Fracture treatment expenses,0.021098047,0.25,Low
+C1116,U2116,35535,123885,Motor,Pune,3,315,Broken window due to hailstorm,0.036128685,0.75,High
+C1021,U2021,69925,172695,Property,Delhi,5,94,Phone stolen during travel,0.54196036,0.75,High
+C1198,U2198,123451,46525,Health,Hyderabad,1,298,"Severe collision, engine damaged",0.036359962,0.25,Low
+C1094,U2094,45774,110512,Motor,Hyderabad,2,94,Broken window due to hailstorm,0.0282449,0.5,Medium
+C1079,U2079,60591,135874,Motor,Delhi,4,171,"Severe collision, engine damaged",0.48275948,0.75,High
+C1056,U2056,129243,18708,Property,Hyderabad,2,211,Lost property claim repeated,0.011525798,0.25,Low
+C1164,U2164,7693,151501,Property,Nagpur,3,288,Basement flooded due to rainfall,0.010304793,0.75,High
+C1095,U2095,7568,150443,Property,Nagpur,2,304,"Minor accident, bumper scratch",0.0410946,0.5,Medium
+C1076,U2076,45397,103689,Health,Mumbai,2,9,Fracture treatment expenses,0.54335886,0.5433588624000549,Medium
+C1162,U2162,185152,179597,Motor,Hyderabad,5,37,Lost property claim repeated,0.009203863,0.5,Medium
+C1118,U2118,57256,62040,Motor,Nagpur,4,290,Lost property claim repeated,0.5023215,0.5023214817047119,Medium
+C1050,U2050,92313,159256,Motor,Hyderabad,0,299,Fracture treatment expenses,0.2588568,0.25885680317878723,Low
+C1170,U2170,23047,208362,Motor,Nagpur,2,4,Lost property claim repeated,0.0008408689,0.5,Medium
+C1150,U2150,192116,138059,Property,Nagpur,5,197,"Minor accident, bumper scratch",0.36081785,0.5,Medium
+C1165,U2165,100259,140965,Health,Pune,4,253,"Severe collision, engine damaged",0.052187268,0.5,Medium
+C1140,U2140,28419,5869,Health,Delhi,2,22,"Severe collision, engine damaged",0.0023776283,0.25,Low
+C1001,U2001,151867,180648,Motor,Nagpur,0,5,Basement flooded due to rainfall,0.012992717,0.25,Low
+C1022,U2022,10311,10392,Health,Mumbai,0,151,Basement flooded due to rainfall,0.0335623,0.25,Low
+C1184,U2184,60016,174836,Health,Pune,3,156,Lost property claim repeated,0.14953429,0.75,High
+C1039,U2039,171845,171229,Motor,Nagpur,2,133,"Minor accident, bumper scratch",0.037315015,0.25,Low
+C1192,U2192,132659,190563,Health,Hyderabad,3,129,Broken window due to hailstorm,0.0011844723,0.5,Medium
+C1197,U2197,73840,39212,Health,Mumbai,2,281,Lost property claim repeated,0.08676493,0.25,Low
+C1145,U2145,190340,93272,Property,Pune,0,224,Fracture treatment expenses,0.020156514,0.25,Low
+C1054,U2054,159969,243965,Property,Nagpur,5,323,Lost property claim repeated,0.005016835,0.5,Medium
+C1014,U2014,21023,29736,Property,Delhi,4,69,Broken window due to hailstorm,0.00043621357,0.5,Medium
+C1066,U2066,24457,240714,Health,Pune,2,37,"Minor accident, bumper scratch",0.001385222,0.5,Medium
+C1195,U2195,98557,46484,Health,Pune,0,242,Fracture treatment expenses,0.007138029,0.25,Low
+C1052,U2052,13792,176179,Health,Nagpur,4,325,"Minor accident, bumper scratch",0.048949476,0.75,High
+C1059,U2059,129358,136883,Property,Mumbai,3,112,Broken window due to hailstorm,0.018119892,0.5,Medium
+C1113,U2113,188323,69690,Health,Hyderabad,4,360,Fracture treatment expenses,0.039509807,0.5,Medium
+C1108,U2108,43660,10400,Motor,Delhi,1,59,Basement flooded due to rainfall,0.007680056,0.25,Low
+C1100,U2100,184262,106727,Motor,Nagpur,5,372,Fracture treatment expenses,0.018656546,0.5,Medium
+C1127,U2127,113066,195339,Property,Hyderabad,5,88,Fracture treatment expenses,0.05929269,0.5,Medium
+C1132,U2132,103806,216090,Motor,Pune,4,327,Fracture treatment expenses,0.00254839,0.75,High
+C1098,U2098,138767,136121,Property,Pune,0,235,Lost property claim repeated,0.3479009,0.3479008972644806,Low

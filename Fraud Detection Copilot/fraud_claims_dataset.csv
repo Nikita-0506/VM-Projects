@@ -1,0 +1,201 @@
+claim_id,customer_id,claim_amount,repair_estimate,claim_type,location,previous_claims,days_since_last_claim,description,fraud_reported
+C1000,U2000,126958,54005,Motor,Mumbai,1,100,Broken window due to hailstorm,0
+C1001,U2001,151867,180648,Motor,Nagpur,0,5,Basement flooded due to rainfall,0
+C1002,U2002,136932,42353,Motor,Delhi,2,179,Phone stolen during travel,0
+C1003,U2003,108694,196075,Motor,Hyderabad,0,281,Fracture treatment expenses,0
+C1004,U2004,124879,217283,Health,Delhi,4,319,"Severe collision, engine damaged",0
+C1005,U2005,115268,55733,Motor,Hyderabad,5,225,Fracture treatment expenses,0
+C1006,U2006,59886,68318,Property,Pune,3,314,Fracture treatment expenses,0
+C1007,U2007,142337,244025,Property,Hyderabad,0,364,Lost property claim repeated,0
+C1008,U2008,173266,223546,Motor,Nagpur,4,228,Lost property claim repeated,0
+C1009,U2009,92498,157736,Property,Mumbai,4,376,"Severe collision, engine damaged",0
+C1010,U2010,117727,70172,Motor,Hyderabad,5,288,Fracture treatment expenses,0
+C1011,U2011,131324,219688,Motor,Hyderabad,2,149,Phone stolen during travel,0
+C1012,U2012,180203,96264,Property,Mumbai,4,276,Basement flooded due to rainfall,0
+C1013,U2013,196335,249458,Motor,Nagpur,4,197,"Severe collision, engine damaged",0
+C1014,U2014,21023,29736,Property,Delhi,4,69,Broken window due to hailstorm,0
+C1015,U2015,46090,228281,Health,Hyderabad,4,111,Fracture treatment expenses,0
+C1016,U2016,72221,237113,Motor,Mumbai,1,3,"Severe collision, engine damaged",0
+C1017,U2017,69820,115859,Health,Pune,1,349,"Minor accident, bumper scratch",0
+C1018,U2018,5769,115181,Property,Mumbai,2,330,"Minor accident, bumper scratch",0
+C1019,U2019,64735,134926,Health,Pune,0,317,Lost property claim repeated,1
+C1020,U2020,199027,93084,Health,Nagpur,4,349,Basement flooded due to rainfall,0
+C1021,U2021,69925,172695,Property,Delhi,5,94,Phone stolen during travel,0
+C1022,U2022,10311,10392,Health,Mumbai,0,151,Basement flooded due to rainfall,0
+C1023,U2023,108355,58680,Health,Hyderabad,5,310,Basement flooded due to rainfall,1
+C1024,U2024,189779,180789,Property,Nagpur,0,136,Basement flooded due to rainfall,0
+C1025,U2025,90305,221164,Health,Mumbai,2,246,Basement flooded due to rainfall,0
+C1026,U2026,164765,53859,Property,Hyderabad,4,386,Broken window due to hailstorm,0
+C1027,U2027,135608,128657,Health,Mumbai,4,242,Broken window due to hailstorm,0
+C1028,U2028,161730,238167,Property,Pune,3,30,Lost property claim repeated,0
+C1029,U2029,89478,160381,Property,Mumbai,5,39,"Severe collision, engine damaged",0
+C1030,U2030,127537,221527,Health,Mumbai,0,228,"Minor accident, bumper scratch",0
+C1031,U2031,154503,197806,Health,Mumbai,0,35,Basement flooded due to rainfall,0
+C1032,U2032,135523,73467,Health,Nagpur,1,222,Lost property claim repeated,0
+C1033,U2033,7747,186734,Motor,Mumbai,3,5,"Severe collision, engine damaged",0
+C1034,U2034,128855,101506,Motor,Hyderabad,1,321,"Minor accident, bumper scratch",0
+C1035,U2035,195222,112751,Motor,Pune,1,219,Fracture treatment expenses,0
+C1036,U2036,70725,121906,Property,Pune,1,74,Phone stolen during travel,0
+C1037,U2037,134981,146760,Health,Mumbai,5,3,Broken window due to hailstorm,0
+C1038,U2038,89654,28342,Property,Nagpur,5,334,Fracture treatment expenses,0
+C1039,U2039,171845,171229,Motor,Nagpur,2,133,"Minor accident, bumper scratch",0
+C1040,U2040,124346,201935,Health,Hyderabad,2,117,Fracture treatment expenses,0
+C1041,U2041,72435,109308,Property,Mumbai,1,368,Phone stolen during travel,0
+C1042,U2042,61886,186155,Health,Pune,3,93,Lost property claim repeated,0
+C1043,U2043,71803,109081,Property,Nagpur,0,61,"Minor accident, bumper scratch",0
+C1044,U2044,36551,199805,Health,Mumbai,5,193,Fracture treatment expenses,0
+C1045,U2045,121216,92045,Motor,Nagpur,3,334,Broken window due to hailstorm,0
+C1046,U2046,16394,37698,Motor,Nagpur,4,202,Broken window due to hailstorm,0
+C1047,U2047,74092,113078,Health,Pune,5,391,"Severe collision, engine damaged",0
+C1048,U2048,8890,83623,Property,Delhi,5,25,Fracture treatment expenses,0
+C1049,U2049,46606,25671,Motor,Hyderabad,2,172,Basement flooded due to rainfall,0
+C1050,U2050,92313,159256,Motor,Hyderabad,0,299,Fracture treatment expenses,0
+C1051,U2051,146699,96384,Motor,Pune,0,132,Lost property claim repeated,0
+C1052,U2052,13792,176179,Health,Nagpur,4,325,"Minor accident, bumper scratch",0
+C1053,U2053,179073,89202,Health,Mumbai,4,117,"Minor accident, bumper scratch",0
+C1054,U2054,159969,243965,Property,Nagpur,5,323,Lost property claim repeated,0
+C1055,U2055,73148,54663,Property,Pune,1,274,Fracture treatment expenses,0
+C1056,U2056,129243,18708,Property,Hyderabad,2,211,Lost property claim repeated,0
+C1057,U2057,125174,94906,Health,Nagpur,2,224,Phone stolen during travel,0
+C1058,U2058,159555,52811,Health,Hyderabad,5,19,Lost property claim repeated,0
+C1059,U2059,129358,136883,Property,Mumbai,3,112,Broken window due to hailstorm,0
+C1060,U2060,53555,59250,Property,Hyderabad,1,139,Lost property claim repeated,1
+C1061,U2061,22159,115547,Health,Hyderabad,5,46,"Minor accident, bumper scratch",0
+C1062,U2062,115510,206154,Property,Delhi,1,0,Broken window due to hailstorm,0
+C1063,U2063,111530,127249,Motor,Delhi,1,89,"Minor accident, bumper scratch",0
+C1064,U2064,85077,37754,Health,Delhi,1,141,"Severe collision, engine damaged",0
+C1065,U2065,40920,229814,Property,Hyderabad,5,319,Basement flooded due to rainfall,0
+C1066,U2066,24457,240714,Health,Pune,2,37,"Minor accident, bumper scratch",0
+C1067,U2067,83953,145483,Motor,Hyderabad,2,292,Broken window due to hailstorm,0
+C1068,U2068,57995,136983,Health,Pune,1,381,"Severe collision, engine damaged",0
+C1069,U2069,176829,201342,Health,Pune,3,138,"Minor accident, bumper scratch",0
+C1070,U2070,14692,217835,Health,Delhi,0,355,Phone stolen during travel,1
+C1071,U2071,181830,142752,Health,Nagpur,5,332,Lost property claim repeated,0
+C1072,U2072,42065,87896,Motor,Mumbai,0,258,Basement flooded due to rainfall,1
+C1073,U2073,104299,217951,Health,Delhi,3,160,"Minor accident, bumper scratch",0
+C1074,U2074,168678,74295,Health,Delhi,5,389,"Severe collision, engine damaged",0
+C1075,U2075,16534,222686,Property,Nagpur,1,177,Phone stolen during travel,0
+C1076,U2076,45397,103689,Health,Mumbai,2,9,Fracture treatment expenses,0
+C1077,U2077,96387,14111,Property,Hyderabad,0,260,"Severe collision, engine damaged",0
+C1078,U2078,6016,40504,Motor,Hyderabad,4,137,Lost property claim repeated,0
+C1079,U2079,60591,135874,Motor,Delhi,4,171,"Severe collision, engine damaged",0
+C1080,U2080,28247,11155,Motor,Mumbai,3,385,Phone stolen during travel,1
+C1081,U2081,29300,207728,Motor,Delhi,1,12,"Severe collision, engine damaged",0
+C1082,U2082,87798,42384,Property,Pune,0,167,Phone stolen during travel,0
+C1083,U2083,14268,115561,Health,Delhi,1,129,"Minor accident, bumper scratch",0
+C1084,U2084,91807,50254,Motor,Delhi,0,83,Phone stolen during travel,0
+C1085,U2085,17185,24918,Health,Hyderabad,3,320,Phone stolen during travel,0
+C1086,U2086,199776,88981,Property,Hyderabad,3,318,Basement flooded due to rainfall,0
+C1087,U2087,175171,194785,Property,Hyderabad,4,100,Phone stolen during travel,0
+C1088,U2088,144643,33306,Property,Pune,1,328,Phone stolen during travel,0
+C1089,U2089,43044,150718,Motor,Hyderabad,5,272,Fracture treatment expenses,0
+C1090,U2090,56214,49843,Health,Mumbai,4,264,"Minor accident, bumper scratch",0
+C1091,U2091,197300,123975,Health,Nagpur,1,398,Lost property claim repeated,0
+C1092,U2092,119752,99601,Health,Mumbai,4,37,Basement flooded due to rainfall,0
+C1093,U2093,53984,224807,Property,Mumbai,5,93,Fracture treatment expenses,1
+C1094,U2094,45774,110512,Motor,Hyderabad,2,94,Broken window due to hailstorm,0
+C1095,U2095,7568,150443,Property,Nagpur,2,304,"Minor accident, bumper scratch",0
+C1096,U2096,125151,211443,Property,Nagpur,2,68,"Minor accident, bumper scratch",0
+C1097,U2097,198664,114472,Health,Nagpur,2,317,Broken window due to hailstorm,0
+C1098,U2098,138767,136121,Property,Pune,0,235,Lost property claim repeated,1
+C1099,U2099,129375,165688,Health,Hyderabad,2,333,Phone stolen during travel,0
+C1100,U2100,184262,106727,Motor,Nagpur,5,372,Fracture treatment expenses,0
+C1101,U2101,141330,115893,Health,Pune,3,375,"Severe collision, engine damaged",0
+C1102,U2102,44504,23932,Motor,Delhi,3,136,Basement flooded due to rainfall,0
+C1103,U2103,169231,120796,Health,Delhi,0,75,"Severe collision, engine damaged",1
+C1104,U2104,18986,32855,Property,Pune,2,34,Broken window due to hailstorm,0
+C1105,U2105,66858,195506,Property,Pune,2,0,"Minor accident, bumper scratch",0
+C1106,U2106,134312,206766,Motor,Hyderabad,2,295,Lost property claim repeated,0
+C1107,U2107,17666,177088,Motor,Hyderabad,4,319,"Minor accident, bumper scratch",0
+C1108,U2108,43660,10400,Motor,Delhi,1,59,Basement flooded due to rainfall,0
+C1109,U2109,139633,120858,Health,Nagpur,4,319,"Minor accident, bumper scratch",1
+C1110,U2110,31854,176714,Health,Delhi,1,348,"Minor accident, bumper scratch",0
+C1111,U2111,69505,18151,Motor,Nagpur,2,327,Basement flooded due to rainfall,0
+C1112,U2112,109488,185479,Property,Nagpur,2,266,Fracture treatment expenses,0
+C1113,U2113,188323,69690,Health,Hyderabad,4,360,Fracture treatment expenses,0
+C1114,U2114,27662,7499,Health,Mumbai,4,228,Basement flooded due to rainfall,0
+C1115,U2115,13392,9295,Health,Mumbai,1,269,Lost property claim repeated,0
+C1116,U2116,35535,123885,Motor,Pune,3,315,Broken window due to hailstorm,0
+C1117,U2117,118569,129071,Motor,Hyderabad,1,285,"Minor accident, bumper scratch",1
+C1118,U2118,57256,62040,Motor,Nagpur,4,290,Lost property claim repeated,0
+C1119,U2119,94135,15183,Motor,Mumbai,5,212,"Minor accident, bumper scratch",0
+C1120,U2120,132478,163371,Motor,Nagpur,4,164,Broken window due to hailstorm,0
+C1121,U2121,40222,146946,Property,Mumbai,5,4,Fracture treatment expenses,0
+C1122,U2122,82373,119336,Property,Mumbai,0,338,Lost property claim repeated,0
+C1123,U2123,128684,35711,Motor,Mumbai,4,378,Phone stolen during travel,0
+C1124,U2124,199407,8539,Health,Hyderabad,0,77,Phone stolen during travel,0
+C1125,U2125,15965,242013,Motor,Delhi,3,61,Phone stolen during travel,0
+C1126,U2126,29538,187423,Property,Nagpur,1,131,Fracture treatment expenses,0
+C1127,U2127,113066,195339,Property,Hyderabad,5,88,Fracture treatment expenses,0
+C1128,U2128,118252,182426,Health,Hyderabad,1,236,Broken window due to hailstorm,0
+C1129,U2129,144182,129063,Property,Hyderabad,0,41,"Minor accident, bumper scratch",0
+C1130,U2130,163338,136629,Motor,Hyderabad,5,88,Broken window due to hailstorm,0
+C1131,U2131,189064,41360,Health,Hyderabad,1,295,Broken window due to hailstorm,0
+C1132,U2132,103806,216090,Motor,Pune,4,327,Fracture treatment expenses,0
+C1133,U2133,142982,136272,Motor,Nagpur,2,294,Phone stolen during travel,0
+C1134,U2134,115989,246548,Health,Hyderabad,0,103,"Severe collision, engine damaged",0
+C1135,U2135,95982,202569,Motor,Nagpur,1,13,"Minor accident, bumper scratch",0
+C1136,U2136,126626,181047,Property,Pune,0,287,Fracture treatment expenses,0
+C1137,U2137,124176,24357,Motor,Pune,0,178,Phone stolen during travel,0
+C1138,U2138,136278,122121,Health,Nagpur,5,124,Lost property claim repeated,0
+C1139,U2139,127409,80505,Health,Mumbai,5,352,"Severe collision, engine damaged",0
+C1140,U2140,28419,5869,Health,Delhi,2,22,"Severe collision, engine damaged",0
+C1141,U2141,186708,195207,Motor,Mumbai,4,62,Fracture treatment expenses,0
+C1142,U2142,55015,53108,Health,Mumbai,0,142,Basement flooded due to rainfall,0
+C1143,U2143,127096,115296,Health,Mumbai,1,152,"Minor accident, bumper scratch",0
+C1144,U2144,112059,97179,Motor,Hyderabad,3,144,"Severe collision, engine damaged",0
+C1145,U2145,190340,93272,Property,Pune,0,224,Fracture treatment expenses,0
+C1146,U2146,115687,41467,Motor,Mumbai,0,308,Fracture treatment expenses,0
+C1147,U2147,92939,26328,Health,Pune,2,103,Phone stolen during travel,0
+C1148,U2148,154213,94412,Health,Nagpur,4,103,Lost property claim repeated,0
+C1149,U2149,110878,220903,Motor,Delhi,3,38,Basement flooded due to rainfall,0
+C1150,U2150,192116,138059,Property,Nagpur,5,197,"Minor accident, bumper scratch",1
+C1151,U2151,169899,61871,Health,Nagpur,5,133,Broken window due to hailstorm,0
+C1152,U2152,191892,156471,Health,Hyderabad,1,66,Lost property claim repeated,0
+C1153,U2153,67623,131391,Health,Delhi,3,390,Lost property claim repeated,0
+C1154,U2154,80450,180286,Motor,Nagpur,5,178,Phone stolen during travel,1
+C1155,U2155,98426,233594,Health,Nagpur,1,41,"Severe collision, engine damaged",0
+C1156,U2156,122845,89416,Property,Delhi,4,14,"Severe collision, engine damaged",0
+C1157,U2157,158371,73271,Health,Delhi,1,110,Phone stolen during travel,0
+C1158,U2158,48585,47064,Health,Nagpur,5,156,Fracture treatment expenses,0
+C1159,U2159,114225,204163,Property,Delhi,2,288,"Severe collision, engine damaged",0
+C1160,U2160,69044,110450,Health,Nagpur,2,230,Basement flooded due to rainfall,0
+C1161,U2161,178629,174890,Motor,Nagpur,2,156,"Minor accident, bumper scratch",0
+C1162,U2162,185152,179597,Motor,Hyderabad,5,37,Lost property claim repeated,0
+C1163,U2163,114556,22830,Motor,Mumbai,2,96,Lost property claim repeated,0
+C1164,U2164,7693,151501,Property,Nagpur,3,288,Basement flooded due to rainfall,0
+C1165,U2165,100259,140965,Health,Pune,4,253,"Severe collision, engine damaged",0
+C1166,U2166,30939,119381,Motor,Mumbai,1,195,Lost property claim repeated,0
+C1167,U2167,184997,213981,Property,Mumbai,1,85,Broken window due to hailstorm,0
+C1168,U2168,179013,50333,Health,Mumbai,5,321,"Minor accident, bumper scratch",0
+C1169,U2169,157906,137508,Property,Hyderabad,2,9,"Minor accident, bumper scratch",0
+C1170,U2170,23047,208362,Motor,Nagpur,2,4,Lost property claim repeated,0
+C1171,U2171,31105,79213,Motor,Hyderabad,0,122,Phone stolen during travel,0
+C1172,U2172,80766,139967,Motor,Nagpur,4,329,Lost property claim repeated,0
+C1173,U2173,151779,153810,Property,Hyderabad,3,352,Phone stolen during travel,0
+C1174,U2174,158048,33746,Property,Hyderabad,1,117,Lost property claim repeated,0
+C1175,U2175,49262,52377,Motor,Pune,0,293,Broken window due to hailstorm,0
+C1176,U2176,130117,182476,Property,Hyderabad,0,396,Fracture treatment expenses,0
+C1177,U2177,28776,57045,Motor,Delhi,5,158,"Minor accident, bumper scratch",0
+C1178,U2178,166152,100888,Motor,Pune,1,302,Lost property claim repeated,0
+C1179,U2179,133376,173862,Health,Hyderabad,5,227,Broken window due to hailstorm,0
+C1180,U2180,197445,110455,Property,Mumbai,3,364,Phone stolen during travel,1
+C1181,U2181,142848,139672,Motor,Delhi,0,215,Phone stolen during travel,0
+C1182,U2182,97787,228732,Motor,Delhi,0,183,"Minor accident, bumper scratch",0
+C1183,U2183,132948,96179,Property,Delhi,4,14,Basement flooded due to rainfall,0
+C1184,U2184,60016,174836,Health,Pune,3,156,Lost property claim repeated,1
+C1185,U2185,145546,208615,Health,Hyderabad,0,135,"Severe collision, engine damaged",0
+C1186,U2186,194125,48714,Motor,Hyderabad,3,260,Phone stolen during travel,0
+C1187,U2187,26959,190907,Property,Mumbai,1,156,Fracture treatment expenses,0
+C1188,U2188,141602,105946,Health,Mumbai,2,46,Fracture treatment expenses,1
+C1189,U2189,124101,112616,Property,Delhi,0,323,Phone stolen during travel,0
+C1190,U2190,8748,108983,Property,Mumbai,4,331,Basement flooded due to rainfall,0
+C1191,U2191,18545,207816,Motor,Pune,1,172,Basement flooded due to rainfall,0
+C1192,U2192,132659,190563,Health,Hyderabad,3,129,Broken window due to hailstorm,0
+C1193,U2193,170838,127123,Motor,Delhi,5,94,Fracture treatment expenses,0
+C1194,U2194,78530,152661,Health,Mumbai,1,114,Broken window due to hailstorm,0
+C1195,U2195,98557,46484,Health,Pune,0,242,Fracture treatment expenses,0
+C1196,U2196,66087,85989,Health,Pune,3,291,Lost property claim repeated,0
+C1197,U2197,73840,39212,Health,Mumbai,2,281,Lost property claim repeated,0
+C1198,U2198,123451,46525,Health,Hyderabad,1,298,"Severe collision, engine damaged",0
+C1199,U2199,190456,181274,Property,Mumbai,0,282,Lost property claim repeated,1
