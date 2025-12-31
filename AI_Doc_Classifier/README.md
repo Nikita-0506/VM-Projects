@@ -1,4 +1,4 @@
-## AI Insurance Document Classification Agent 
+# AI Insurance Document Classification Agent 
 
 A hybrid NLP-powered system that analyzes PDF or scanned image documents and automatically classifies them into standard insurance document types:
 
@@ -12,7 +12,7 @@ A hybrid NLP-powered system that analyzes PDF or scanned image documents and aut
 
 Using OCR extraction + Zero-Shot LLM classification + Sentence Embedding matching + Optional ML classifier, this tool enables batch folder processing, Excel/PDF reporting, and a full Streamlit dashboard with history logging.
 
-# This project demonstrates:
+## This project demonstrates:
 
    a. PDF & Image OCR (pdfplumber + pytesseract)
 
@@ -29,7 +29,7 @@ Using OCR extraction + Zero-Shot LLM classification + Sentence Embedding matchin
    g. SQLite database history tracking
    
 
-# 1️ Architecture Overview
+## 1️ Architecture Overview
 
 Component                      	Technology
 
@@ -43,9 +43,9 @@ Storage                     	SQLite history.db
 Reporting                   	ReportLab – PDF Export
 
 
-# 2️ Core Features
+## 2️ Core Features
 
-# 🧠 AI Classification Modes (Priority-Based)
+## 🧠 AI Classification Modes (Priority-Based)
 
 When classifying a document, system chooses BEST-match using:
 
@@ -63,7 +63,7 @@ Output includes:
 
    c. Which AI method was used
    
-# 🔍 Metadata Extraction (Regex)
+## 🔍 Metadata Extraction (Regex)
 
 Extracts:
 
@@ -75,7 +75,7 @@ Extracts:
 
    d. Date – dd/mm/yyyy or dd-mm-yyyy
 
-# 📁 Batch Folder Processing
+## 📁 Batch Folder Processing
 
 Run classification for multiple documents in a directory → auto-generate:
 
@@ -83,7 +83,7 @@ Run classification for multiple documents in a directory → auto-generate:
 
    b. results.pdf
 
-# 🖥 Streamlit Application
+## 🖥 Streamlit Application
 
    a. Upload & classify multiple files
 
@@ -95,19 +95,19 @@ Run classification for multiple documents in a directory → auto-generate:
 
    e. Clear records
 
-# A. Install Dependencies
+## A. Install Dependencies
    pip install -r requirements.txt
 
 
-# OCR dependency (Windows example):
+## OCR dependency (Windows example):
 
    choco install tesseract
 
-# B. Run CLI Script (Terminal)
+## B. Run CLI Script (Terminal)
    python main.py
 
 
-# CLI example:
+## CLI example:
 
 " [  📌 Insurance Document Classification – CLI Tool
 
@@ -126,23 +126,23 @@ Invoice No: INV-2203
 Date: 22/10/2024  ] "
 
 
-# Batch mode:
+## Batch mode:
 
 "  [ python main.py
 Enter folder path: ./docs/
 Excel file saved → results.xlsx
 PDF report saved → results.pdf ]  "
 
-# C. Run Streamlit Dashboard
+## C. Run Streamlit Dashboard
    streamlit run app.py
 
 
-# Visit UI:
+## Visit UI:
 
    http://localhost:8501
 
 
-# Dashboard Features
+## Dashboard Features
 
 Feature            Description
 File Upload	       Upload multiple PDF / scanned images
@@ -153,7 +153,7 @@ History            View previous uploaded results
 Database	         Saves logs to history.db
 
 
-# D. Example JSON Output
+## D. Example JSON Output
 
 (Not actual run output — formatted for documentation)
 
@@ -170,7 +170,7 @@ Database	         Saves logs to history.db
   }
 }
 
-# 3 Folder Structure
+## 3 Folder Structure
 
 │── main.py                     # CLI document classifier
 │── app.py                      # Streamlit dashboard
@@ -182,7 +182,7 @@ Database	         Saves logs to history.db
 │── requirements.txt
 │── README.md
 
-# 4 Future Enhancements
+## 4 Future Enhancements
 
    a. FastAPI backend → REST endpoints (/classify, /upload, /results)
 
@@ -194,8 +194,9 @@ Database	         Saves logs to history.db
 
    e. Smart section extraction → e.g., “Policy Period”, “Premium Due”, “Claim Reason”
 
-# ✨ Developed By
+## ✨ Developed By
 
 Nikita Pachkate
 Data Scientist – Insurance AI Automation Specialist
+
 
