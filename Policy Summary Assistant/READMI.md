@@ -1,166 +1,176 @@
-Agentic Policy Summary Assistant
+# Agentic Policy Summary Assistant
 
 A full-stack AI system that reads insurance policy PDF documents and automatically generates:
 
-Plain-English policy summaries
+   a. Plain-English policy summaries
 
-Structured JSON explaining coverage, exclusions, limits, waiting periods, eligibility, disclaimers
+   b. Structured JSON explaining coverage, exclusions, limits, waiting periods, eligibility, disclaimers
 
-Optional translation into Hindi / Marathi
+   c. Optional translation into Hindi / Marathi
 
-PDF downloadable reports
+   d. PDF downloadable reports
 
-Automated email delivery
+   e. Automated email delivery
 
-Analytics visualizations
+   f. Analytics visualizations
 
-Long-term history storage
+   g. Long-term history storage
 
-Chatbot capable of answering questions based ONLY on uploaded policy content
+   h. Chatbot capable of answering questions based ONLY on uploaded policy content
 
-This project demonstrates:
+## This project demonstrates:
 
-Azure OpenAI GPT model for summarization & RAG-style structuring
+   a. Azure OpenAI GPT model for summarization & RAG-style structuring
 
-PDF text extraction (pdfplumber)
+   b. PDF text extraction (pdfplumber)
 
-PDF export (FPDF / ReportLab Platypus)
+   c. PDF export (FPDF / ReportLab Platypus)
 
-Multi-language translation
+   d. Multi-language translation
 
-Interactive Streamlit App UI
+   e. Interactive Streamlit App UI
 
-Chat session logging into SQLite
+   f. Chat session logging into SQLite
 
-Multi-file master PDF report generation (10+ policies in one document)
+   g. Multi-file master PDF report generation (10+ policies in one document)
 
-Email workflow using SMTP + Yagmail
+   h. Email workflow using SMTP + Yagmail
 
-1️ Architecture Overview
-Component	Technology
-Backend Engine	CLI (Python)
-Frontend UI	Streamlit
-AI Model	Azure OpenAI GPT (Chat Completions)
-PDF OCR	pdfplumber
-PDF Rendering	ReportLab, FPDF
-Multi-Language	GPT-based Translation (Hindi / Marathi)
-Email Service	Yagmail (SMTP)
-DB Storage	SQLite (policy_history.db, chat_history.db)
-Deployment	Localhost, Azure VM, Docker capable
-2️ Core Features
-Policy Summarization
+## 1️ Architecture Overview
 
-Converts full PDF → summarised text (200-word adjustable)
+Component	                 Technology
 
-Converts full policy → structured JSON including:
+Backend Engine	           CLI (Python)
+Frontend UI	               Streamlit
+AI Model	                 Azure OpenAI GPT (Chat Completions)
+PDF OCR	                   pdfplumber
+PDF Rendering	             ReportLab, FPDF
+Multi-Language	           GPT-based Translation (Hindi / Marathi)
+Email Service	             Yagmail (SMTP)
+DB Storage	               SQLite (policy_history.db, chat_history.db)
+Deployment	               Localhost, Azure VM, Docker capable
 
-"coverage": []
+## 2️ Core Features
 
-"exclusions": []
+## Policy Summarization
 
-"limits": []
+A. Converts full PDF → summarised text (200-word adjustable)
 
-"eligibility": []
+B. Converts full policy → structured JSON including:
 
-"waiting_periods": []
+   a. "coverage": []
 
-"disclaimers": []
+   b. "exclusions": []
 
-Multi-language Output
+   c. "limits": []
 
-Hindi summary
+   d. "eligibility": []
 
-Marathi summary
+   e. "waiting_periods": []
 
-English only
+   f. "disclaimers": []
 
-Policy Compliance Dashboard (Streamlit)
+## Multi-language Output
 
-Upload multiple PDF files
+   a. Hindi summary
 
-Generate summaries instantly
+   b. Marathi summary
 
-Download individual PDF reports
+   c. English only
 
-Track all generated outputs in history database
+## Policy Compliance Dashboard (Streamlit)
 
-Master Report Generator (10+ PDFs)
+   a. Upload multiple PDF files
 
-Upload 10+ policies → one consolidated MASTER_POLICY_REPORT.pdf
+   b. Generate summaries instantly
 
-Optional email sending of master report
+   c. Download individual PDF reports
 
-Email Delivery
+   d. Track all generated outputs in history database
 
-Send single PDF summary or master report
+## Master Report Generator (10+ PDFs)
 
-Uses SMTP via .env credentials
+   a. Upload 10+ policies → one consolidated MASTER_POLICY_REPORT.pdf
 
-Chatbot (Policy-Aware)
+   b. Optional email sending of master report
+
+## Email Delivery
+
+   a. Send single PDF summary or master report
+
+   b. Uses SMTP via .env credentials
+
+## Chatbot (Policy-Aware)
 
 Modes:
 
-Normal Chatbot (generic GPT-like)
+   a. Normal Chatbot (generic GPT-like)
 
-Policy-Based Only (answers strictly using uploaded policy text)
+   b. Policy-Based Only (answers strictly using uploaded policy text)
 
 All chat history is saved in a database & can be reopened later.
 
-A. Install Dependencies
+## A. Install Dependencies
+
 pip install -r requirements.txt
 
-
-Recommended PDF font support (Linux):
+## Recommended PDF font support (Linux):
 
 sudo apt-get install fonts-noto-cjk
 
-B. Environment Variables (.env)
+## B. Environment Variables (.env)
 
-Create .env with:
+## Create .env with:
 
+[
 AZURE_OPENAI_API_KEY=xxxx
 AZURE_OPENAI_ENDPOINT=https://xxx.openai.azure.com/
 AZURE_OPENAI_DEPLOYMENT=gpt-model-name
 EMAIL_USER=your@gmail.com
 EMAIL_PASSWORD=your_app_password
 NOTIFY_EMAIL_TO=recipient@example.com
+]
 
-C. Run CLI Version (main.py)
+## C. Run CLI Version (main.py)
+
 python main.py
 
+## Example usage:
 
-Example usage:
-
+[
 [INFO] Reading PDF...
 [INFO] Generating JSON structured summary...
 [INFO] Generating English summary...
 [INFO] Translating (Hindi)...
 PDF saved → policy_summary.pdf
 Do you want to send this PDF by email? (yes/no):
+]
 
-
-Arguments available:
+## Arguments available:
 
 python main.py --pdf HealthPolicy.pdf --length 150 --lang hindi
 
-D. Run Streamlit Dashboard
+## D. Run Streamlit Dashboard
+
 streamlit run streamlit_app.py
 
-
-Visit in browser:
+## Visit in browser:
 
 http://localhost:8501
 
 
-Pages (Tabs):
+## Pages (Tabs):
 
-Tab	Description
-🧾 Summarize Policy	Upload PDF → Summary + PDF + Email
-📚 Master Report	Upload 10+ PDFs → Consolidated Report
-📜 History	View all generated reports
-📊 Analytics	Chart view of coverage & exclusions
-🤖 Chatbot	Ask questions about policy contents
-3️ Example Output – JSON Summary
+Tab                         	 Description
+🧾 Summarize Policy	           Upload PDF → Summary + PDF + Email
+📚 Master Report	             Upload 10+ PDFs → Consolidated Report
+📜 History	                   View all generated reports
+📊 Analytics	                 Chart view of coverage & exclusions
+🤖 Chatbot                     Ask questions about policy contents
+
+
+## 3️ Example Output – JSON Summary
+
 {
   "coverage": ["Hospitalization", "Room Rent", "Pre-Post Care"],
   "exclusions": ["Pre-existing diseases", "Dental cosmetic care"],
@@ -170,7 +180,8 @@ Tab	Description
   "disclaimers": ["No guarantee of policy renewal"]
 }
 
-4 Folder Structure
+## 4 Folder Structure
+
 │── main.py                        # CLI summarizer + email
 │── streamlit_app.py               # Web dashboard UI
 │── policy_history.db              # Generated policy history
@@ -181,31 +192,31 @@ Tab	Description
 │── /MASTER_POLICY_REPORT.pdf      # Generated (optional)
 │── /<file>_summary.pdf            # Auto-generated report(s)
 
-5 Analytics Capabilities
+## 5 Analytics Capabilities
 
 Extracts JSON → builds charts:
 
-Most common coverage terms
+   a. Most common coverage terms
 
-Most frequent exclusions
+   b. Most frequent exclusions
 
-Date-wise usage tracking
+   c. Date-wise usage tracking
 
 Uses: Plotly Express
 
-6 Future Enhancements
+## 6 Future Enhancements
 
-Add OCR for scanned PDF policy images
+   a. Add OCR for scanned PDF policy images
 
-Add JWT admin login & session auth
+   b. Add JWT admin login & session auth
 
-FASTAPI REST endpoints for automation pipelines
+   c. FASTAPI REST endpoints for automation pipelines
 
-Export JSON data to Blob Storage or Salesforce Insurance Cloud
+   d. Export JSON data to Blob Storage or Salesforce Insurance Cloud
 
-Integrate GPT-RAG document search across multiple policies
+   e. Integrate GPT-RAG document search across multiple policies
 
-✨ Developed By
+## ✨ Developed By
 
 Nikita Pachkate
 Insurance AI Engineer & Data Scientist
