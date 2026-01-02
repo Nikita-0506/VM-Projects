@@ -63,20 +63,20 @@ project/
 ```
 ## 4. Requirements
 
-System Dependencies
+A. System Dependencies
 
    a. Python 3.9+
 
    b. GPU optional (for YOLO acceleration)
 
-Python Libraries
+B. Python Libraries
 
-  pip install streamlit openai python-dotenv sklearn langdetect reportlab ultralytics
-  pip install pillow numpy yagmail speechrecognition pydub opencv-python
+   a.  pip install streamlit openai python-dotenv sklearn langdetect reportlab ultralytics
+   b.  pip install pillow numpy yagmail speechrecognition pydub opencv-python
 
 ## 5. Environment Configuration (.env)
 
-Create a .env file at project root:
+### Create a .env file at project root:
 
 AZURE_OPENAI_API_KEY=xxxxxxxx
 AZURE_OPENAI_API_VERSION=2024-12-01-preview
@@ -95,16 +95,16 @@ python main.py
 
  b .Output:
 
-    1. JSON result
+   1. JSON result
 
-    2. Human-readable summary
+   2. Human-readable summary
 
 B. Streamlit Web Portal
    
-    1. streamlit run streamlit.py
+   1. streamlit run streamlit.py
 
 
-    2. UI will open with 5 pages:
+   2. UI will open with 5 pages:
 
        a. Normalize Claim
 
@@ -141,47 +141,47 @@ B. Streamlit Web Portal
 
 ### Automated enterprise-layout PDF contains:
 
-    a. Claim ID + Policy
+   a. Claim ID + Policy
 
-    b. AI language notes
+   b. AI language notes
 
-    c. Incident details
+   c. Incident details
 
-    d. Fraud Level
+   d. Fraud Level
 
-    e. Recommended Next Action
+   e. Recommended Next Action
 
-    f. Summary Text
+   f. Summary Text
 
-Example PDF name:
+### Example PDF name:
 
 POL-9938833-CLM-A73E.pdf
 
 ## 9. Email Sending
 
-    a. PDF is attached and emailed automatically:
+   a. PDF is attached and emailed automatically:
 
-    b. Subject: Insurance Claim Report – POL-xxxx-CLM-yyyy
+   b. Subject: Insurance Claim Report – POL-xxxx-CLM-yyyy
        Customer receives PDF report
 
 ## 10. Database Logging (SQLite)
 
 ### All processed claims are stored:
 
-    a. claim_id, policy_no, summary, fraud_score, severity, asset, created_on
+   a. claim_id, policy_no, summary, fraud_score, severity, asset, created_on
 
 
-     b. History screen displays full log table.
+   b. History screen displays full log table.
 
 ## 11. Analytics Dashboard
 
 ### Visual charts:
 
-    a. Claims count per day
+   a. Claims count per day
 
-    b. Fraud-level distribution
+   b. Fraud-level distribution
 
-    c. Severity distribution
+   c. Severity distribution
 
 ## 12. Use Cases
 
@@ -194,15 +194,15 @@ Fraud Control	Auto-risk-flagging pipeline
 
 ## 13. Future Enhancements (Suggested Roadmap)
 
-    a. RAG knowledge-base policy validation
+   a. RAG knowledge-base policy validation
 
-    b. Multi-language voice call ingestion (Telugu, Tamil)
+   b. Multi-language voice call ingestion (Telugu, Tamil)
 
-    c. OCR extraction from documents/invoices
+   c. OCR extraction from documents/invoices
 
-    d. Integration with CRM systems (Salesforce / Guidewire)
+   d. Integration with CRM systems (Salesforce / Guidewire)
 
-# ✨ Developed By:
+## ✨ Developed By:
 
 **Nikita Pachkate**  
 Data Scientist & AI Project Developer
