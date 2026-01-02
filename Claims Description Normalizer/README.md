@@ -8,7 +8,7 @@ Includes ML fallback classifier, rule-based engines, YOLO-based image damage ana
 
 Insurance claims often arrive as messy natural-language text, voice calls, or damaged-vehicle photos. Manual review is slow and error-prone.
 
-This solution provides:
+#### This solution provides:
 
 | Capability           | Description                                            |
 | -------------------- | ------------------------------------------------------ |
