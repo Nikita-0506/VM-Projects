@@ -108,8 +108,9 @@ Run classification for multiple documents in a directory → auto-generate:
 
 
 ## CLI example:
+```text
 
-" [  📌 Insurance Document Classification – CLI Tool
+  📌 Insurance Document Classification – CLI Tool
 
 Choose mode:
 1 – Single File
@@ -125,17 +126,18 @@ Method Used: Embedding Classifier
 Invoice No: INV-2203
 Date: 22/10/2024  ] "
 
-
+```
 ## Batch mode:
-
-"  [ python main.py
+```text
+python main.py
 Enter folder path: ./docs/
 Excel file saved → results.xlsx
-PDF report saved → results.pdf ]  "
-
+PDF report saved → results.pdf
+```
 ## C. Run Streamlit Dashboard
+   ```text
    streamlit run app.py
-
+```
 
 ## Visit UI:
 
@@ -202,6 +204,7 @@ project/
 
 Nikita Pachkate
 Data Scientist – Insurance AI Automation Specialis
+
 
 
 
