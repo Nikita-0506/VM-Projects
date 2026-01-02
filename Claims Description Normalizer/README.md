@@ -196,7 +196,7 @@ POL-9938833-CLM-A73E.pdf
 | Fraud Control      | Auto-risk-flagging pipeline                 |
 
 
-## 13. Future Enhancements (Suggested Roadmap)
+## 13. Future Enhancements 
 
    a. RAG knowledge-base policy validation
 
