@@ -177,7 +177,7 @@ http://localhost:8501
 
 
 ## 3️ Example Output – JSON Summary
-
+```text
 {
   "coverage": ["Hospitalization", "Room Rent", "Pre-Post Care"],
   "exclusions": ["Pre-existing diseases", "Dental cosmetic care"],
@@ -186,7 +186,7 @@ http://localhost:8501
   "waiting_periods": ["30 days general", "2 years maternity"],
   "disclaimers": ["No guarantee of policy renewal"]
 }
-
+```
 ## 4 Folder Structure
 
 ```text
