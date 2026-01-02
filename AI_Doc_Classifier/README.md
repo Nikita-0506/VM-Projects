@@ -170,7 +170,7 @@ Database	         Saves logs to history.db
   }
 }
 
-## Folder Structure
+## 3 Folder Structure
 
 ```text
 project/
@@ -184,7 +184,8 @@ project/
 │── requirements.txt
 │── README.md
 
-## 4 Future Enhancements
+
+** ## 4 Future Enhancements **
 
    a. FastAPI backend → REST endpoints (/classify, /upload, /results)
 
@@ -199,8 +200,4 @@ project/
 ## ✨ Developed By
 
 Nikita Pachkate
-Data Scientist – Insurance AI Automation Specialist
-
-
-
-
+Data Scientist – Insurance AI Automation Specialis
