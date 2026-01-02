@@ -1,6 +1,6 @@
 # AI Insurance Document Classification Agent 
 
-A hybrid NLP-powered system that analyzes PDF or scanned image documents and automatically classifies them into standard insurance document types:
+#### A hybrid NLP-powered system that analyzes PDF or scanned image documents and automatically classifies them into standard insurance document types:
 
    a. Invoice
 
@@ -210,6 +210,7 @@ project/
 
 #### Nikita Pachkate
 Data Scientist – Insurance AI Automation Specialis
+
 
 
 
