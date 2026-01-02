@@ -76,7 +76,7 @@ project/
 
 ## 5. Environment Configuration (.env)
 
-### Create a .env file at project root:
+#### Create a .env file at project root:
 
 AZURE_OPENAI_API_KEY=xxxxxxxx
 AZURE_OPENAI_API_VERSION=2024-12-01-preview
