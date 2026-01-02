@@ -22,7 +22,7 @@ Includes CLI automation, Streamlit dashboard, PDF fraud summary report generator
    h. Auto Email notification workflow
    
 
-### 🧠 1️ Architecture Overview
+## 🧠 1️ Architecture Overview
 
 #### Component Technology Stack
 
@@ -51,7 +51,7 @@ Includes CLI automation, Streamlit dashboard, PDF fraud summary report generator
    c. Stores probabilities + model prediction outputs
    
 
-### 🧩 Hybrid Rule-Based Risk Enhancer
+## 🧩 Hybrid Rule-Based Risk Enhancer
 
 #### Adds extra risk % based on:
 
@@ -61,11 +61,11 @@ Includes CLI automation, Streamlit dashboard, PDF fraud summary report generator
 
    c. high text similarity against historical fraud descriptions
 
-### 🧬 Text Similarity Engine
+## 🧬 Text Similarity Engine
 
 Cosine-similarity using TF-IDF embeddings
 
-### 📑 PDF Fraud Summary Report
+## 📑 PDF Fraud Summary Report
 
    a. Includes high-risk flagged claim list
 
@@ -73,11 +73,11 @@ Cosine-similarity using TF-IDF embeddings
 
    c. One-click download or send-to-email
 
-### 📧 Email Alerts
+## 📧 Email Alerts
 
 When high-risk claims detected → prompts option to send summary to client/team
 
-### 🧾 Streamlit Dashboard
+## 🧾 Streamlit Dashboard
 
    a. Upload CSV → instant risk scoring
 
@@ -89,7 +89,7 @@ When high-risk claims detected → prompts option to send summary to client/team
 
    e. Trend analytics & pie chart breakdown
 
-### 🛠 A. Install Dependencies
+## 🛠 A. Install Dependencies
 
 pip install -r requirements.txt
 
@@ -98,7 +98,7 @@ pip install -r requirements.txt
 
 pip install xgboost imbalanced-learn joblib yagmail reportlab streamlit seaborn matplotlib
 
-### 🔐 B. Environment Variables (.env)
+## 🔐 B. Environment Variables (.env)
 
 Create .env in root:
 
@@ -106,7 +106,7 @@ EMAIL_USER=your_email@gmail.com
 EMAIL_PASSWORD=your_app_password
 NOTIFY_EMAIL_TO=management@example.com  
 
-### 🧪 C. Train Model & Run ML (CLI Mode)
+## 🧪 C. Train Model & Run ML (CLI Mode)
 
 python main.py
 
@@ -135,7 +135,7 @@ fraud_report.pdf
 
 fraud_results.db
 
-### 🖥 D. Run Web App (Streamlit UI)
+## 🖥 D. Run Web App (Streamlit UI)
 
 streamlit run app.py
 
@@ -144,7 +144,7 @@ streamlit run app.py
 
 http://localhost:8501
 
-#### UI Tabs
+### UI Tabs
 
 #### Application Tabs
 
@@ -156,7 +156,7 @@ http://localhost:8501
 
 
 
-### 📊 Example Output CSV (Model Prediction)
+## 📊 Example Output CSV (Model Prediction)
 
 claim_amount,repair_estimate,previous_claims,days_since_last_claim,description,fraud_probability,risk
 20000,50000,3,12,"rear bumper hit, no witnesses",0.84,"High"
@@ -176,7 +176,7 @@ project/
 │── .env
 │── README.md
 ```
-### 📊 Analytics Features
+## 📊 Analytics Features
 
 Uses Streamlit + Matplotlib + SQLite:
 
@@ -188,7 +188,7 @@ Uses Streamlit + Matplotlib + SQLite:
 
    d. Upload total counts
 
-### 💡 Suggested Enhancements (Future Scope)
+## 💡 Suggested Enhancements (Future Scope)
 
 #### Future Ideas & Business Value
 
@@ -202,7 +202,7 @@ Uses Streamlit + Matplotlib + SQLite:
 
 
 
-### ✨ Developed By
+## ✨ Developed By
 
 #### Nikita Pachkate
 
