@@ -214,7 +214,7 @@ Policy-Based Only (answers strictly from uploaded policy)
 
 
 🧩 High-Level Architecture
-
+```text
 PDF / Image / Text / Voice / CSV
             ↓
      OCR / NLP / Vision
@@ -226,7 +226,7 @@ PDF / Image / Text / Voice / CSV
  Reports • Dashboards • Emails
             ↓
  SQLite Logs & Analytics
-
+```
 🧠 System Comparison Matrix
 
 | Feature                    | Document Classification Agent     | Claims Description Normalizer     | Fraud Detection Copilot           | Agentic Policy Summary Assistant   |
