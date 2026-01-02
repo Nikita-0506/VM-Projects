@@ -209,7 +209,8 @@ project/
 ## ✨ Developed By
 
 #### Nikita Pachkate
-Data Scientist – Insurance AI Automation Specialis
+#### Data Scientist – Insurance AI Automation Specialis
+
 
 
 
