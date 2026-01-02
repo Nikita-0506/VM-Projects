@@ -48,7 +48,7 @@ Using OCR extraction + Zero-Shot LLM classification + Sentence Embedding matchin
 
 ## 2️ Core Features
 
-## 🧠 AI Classification Modes (Priority-Based)
+### 🧠 AI Classification Modes (Priority-Based)
 
 When classifying a document, system chooses BEST-match using:
 
@@ -66,7 +66,7 @@ Output includes:
 
    c. Which AI method was used
    
-## 🔍 Metadata Extraction (Regex)
+### 🔍 Metadata Extraction (Regex)
 
 Extracts:
 
@@ -78,7 +78,7 @@ Extracts:
 
    d. Date – dd/mm/yyyy or dd-mm-yyyy
 
-## 📁 Batch Folder Processing
+### 📁 Batch Folder Processing
 
 Run classification for multiple documents in a directory → auto-generate:
 
@@ -86,7 +86,7 @@ Run classification for multiple documents in a directory → auto-generate:
 
    b. results.pdf
 
-## 🖥 Streamlit Application
+### 🖥 Streamlit Application
 
    a. Upload & classify multiple files
 
@@ -102,7 +102,7 @@ Run classification for multiple documents in a directory → auto-generate:
    pip install -r requirements.txt
 
 
-## OCR dependency (Windows example):
+### OCR dependency (Windows example):
 
    choco install tesseract
 
@@ -110,7 +110,7 @@ Run classification for multiple documents in a directory → auto-generate:
    python main.py
 
 
-## CLI example:
+### CLI example:
 ```text
 
   📌 Insurance Document Classification – CLI Tool
@@ -130,7 +130,7 @@ Invoice No: INV-2203
 Date: 22/10/2024  ] "
 
 ```
-## Batch mode:
+### Batch mode:
 ```text
 python main.py
 Enter folder path: ./docs/
@@ -142,20 +142,23 @@ PDF report saved → results.pdf
    streamlit run app.py
 ```
 
-## Visit UI:
+### Visit UI:
 
    http://localhost:8501
 
 
-## Dashboard Features
+### Dashboard Features
 
-Feature            Description
-File Upload	       Upload multiple PDF / scanned images
-Auto               Classification	AI model runs in background
-JSON Results       Label, confidence, metadata
-Download           Excel + PDF output
-History            View previous uploaded results
-Database	         Saves logs to history.db
+
+| Feature              | Description                                   |
+|----------------------|-----------------------------------------------|
+| File Upload          | Upload multiple PDF / scanned images          |
+| Auto Classification  | AI model runs in background                   |
+| JSON Results         | Label, confidence, metadata                   |
+| Download             | Excel + PDF output                            |
+| History              | View previous uploaded results                |
+| Database             | Saves logs to history.db                      |
+
 
 
 ## D. Example JSON Output
@@ -207,6 +210,7 @@ project/
 
 Nikita Pachkate
 Data Scientist – Insurance AI Automation Specialis
+
 
 
 
