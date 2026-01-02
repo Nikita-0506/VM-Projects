@@ -19,39 +19,39 @@ This repository consolidates four production-ready insurance AI applications int
 🏗️ Architecture Overview
 ```text
 ┌──────────────────────────────────────────────────────────────────────────┐
-│                    INSURANCE GENAI SOLUTIONS SUITE                        │
+│                    INSURANCE GENAI SOLUTIONS SUITE                       │
 ├──────────────────────────────────────────────────────────────────────────┤
 │                                                                          │
-│  ┌─────────────────────────┐  ┌─────────────────────────┐              │
-│  │ DOCUMENT CLASSIFICATION │  │ CLAIMS NORMALIZATION     │              │
-│  │ AGENT                   │  │ ENGINE                  │              │
-│  │                         │  │                         │              │
-│  │ • PDF / Image OCR       │  │ • NLP Claim Parsing     │              │
-│  │ • Zero-Shot AI          │  │ • Loss & Severity AI   │              │
-│  │ • Embedding Similarity  │  │ • Fraud Risk Scoring   │              │
-│  │ • Metadata Extraction  │  │ • YOLO Damage Detection│              │
-│  │ • Batch Processing     │  │ • Voice-to-Text Intake │              │
-│  └─────────────────────────┘  └─────────────────────────┘              │
+│        ┌─────────────────────────┐  ┌─────────────────────────┐          │
+│        │ DOCUMENT CLASSIFICATION │  │ CLAIMS NORMALIZATION    │          │
+│        │ AGENT                   │  │ ENGINE                  │          │
+│        │                         │  │                         │          │
+│        │ • PDF / Image OCR       │  │ • NLP Claim Parsing     │          │
+│        │ • Zero-Shot AI          │  │ • Loss & Severity AI    │          │
+│        │ • Embedding Similarity  │  │ • Fraud Risk Scoring    │          │
+│        │ • Metadata Extraction   │  │ • YOLO Damage Detection │          │
+│        │ • Batch Processing      │  │ • Voice-to-Text Intake  │          │
+│        └─────────────────────────┘  └─────────────────────────┘          │
 │                                                                          │
-│  ┌─────────────────────────┐  ┌─────────────────────────┐              │
-│  │ FRAUD DETECTION         │  │ POLICY SUMMARY           │              │
-│  │ COPILOT                 │  │ ASSISTANT                │              │
-│  │                         │  │                         │              │
-│  │ • XGBoost ML Scoring    │  │ • Policy Summarization  │              │
-│  │ • Rule-Based Risk Logic │  │ • Structured JSON Output│              │
-│  │ • Text Similarity AI   │  │ • Multi-language Support│              │
-│  │ • PDF & Email Alerts   │  │ • RAG-based Chatbot     │              │
-│  │ • Analytics Dashboard  │  │ • Master Report Builder │              │
-│  └─────────────────────────┘  └─────────────────────────┘              │
+│        ┌─────────────────────────┐  ┌─────────────────────────┐          │
+│        │ FRAUD DETECTION         │  │ POLICY SUMMARY          │          │
+│        │ COPILOT                 │  │ ASSISTANT               │          │
+│        │                         │  │                         │          │
+│        │ • XGBoost ML Scoring    │  │ • Policy Summarization  │          │
+│        │ • Rule-Based Risk Logic │  │ • Structured JSON Output│          │
+│        │ • Text Similarity AI    │  │ • Multi-language Support│          │
+│        │ • PDF & Email Alerts    │  │ • RAG-based Chatbot     │          │
+│        │ • Analytics Dashboard   │  │ • Master Report Builder │          │
+│        └─────────────────────────┘  └─────────────────────────┘          │
 │                                                                          │
-│  ┌────────────────────────────────────────────────────────────────────┐ │
-│  │                  COMMON ENTERPRISE AI PLATFORM                      │ │
-│  ├────────────────────────────────────────────────────────────────────┤ │
-│  │ • Azure OpenAI (GPT) Integration    • Streamlit UI Framework        │ │
-│  │ • OCR & PDF Processing Utilities   • SQLite Persistence             │ │
-│  │ • ML Models (TF-IDF, XGBoost)      • Audit Logs & History Tracking  │ │
-│  │ • Modular & Scalable Architecture • Email & Report Automation      │ │
-│  └────────────────────────────────────────────────────────────────────┘ │
+│  ┌────────────────────────────────────────────────────────────────────┐  │
+│  │                  COMMON ENTERPRISE AI PLATFORM                     │  │
+│  ├────────────────────────────────────────────────────────────────────┤  │
+│  │ • Azure OpenAI (GPT) Integration    • Streamlit UI Framework       │  │
+│  │ • OCR & PDF Processing Utilities   • SQLite Persistence            │  │
+│  │ • ML Models (TF-IDF, XGBoost)      • Audit Logs & History Tracking │  │
+│  │ • Modular & Scalable Architecture • Email & Report Automation      │  │
+│  └────────────────────────────────────────────────────────────────────┘  │
 └──────────────────────────────────────────────────────────────────────────┘
 ```
 
