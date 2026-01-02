@@ -333,9 +333,3 @@ Converts lengthy insurance policy PDFs into easy-to-understand summaries and str
 
    f. Real-time claim ingestion (Kafka)
 
-## ✨ Developed By
-
-#### Nikita Pachkate
-#### Insurance AI Engineer & Data Scientist
-
-Specializing in GenAI-powered insurance automation, risk intelligence, and decision-support systems.
