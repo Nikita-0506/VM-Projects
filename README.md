@@ -1,5 +1,6 @@
-🏦 Insurance GenAI Solutions
-End-to-End AI Automation Suite for the Insurance Industry
+# 🏦 Insurance GenAI Solutions
+
+### INTRODUCTION
 
 Insurance GenAI Solutions is a comprehensive collection of enterprise-grade AI systems designed to automate and enhance critical insurance workflows using Generative AI, Machine Learning, Computer Vision, and NLP.
 
@@ -14,165 +15,6 @@ This repository consolidates four production-ready insurance AI applications int
 | Claims Processing  | Unstructured, multilingual inputs        | Structured claim normalization                |
 | Fraud Detection    | Late fraud identification                | Proactive risk scoring & alerts               |
 | Policy Understanding | Long, complex policy PDFs             | Plain-English summaries + chatbot             |
-
-🧠 Included AI Systems
-1️⃣ 📄🤖 AI Insurance Document Classification Agent
-
-Purpose:
-Automatically classifies insurance documents from PDFs or scanned images into standard document types.
-
-Supported Document Types
-
-Invoice
-
-Claim Form
-
-Insurance Policy
-
-Inspection Report
-
-Key Capabilities
-
-PDF & Image OCR (pdfplumber, pytesseract)
-
-Zero-Shot LLM classification (facebook/bart-large-mnli)
-
-Sentence-Transformer embedding similarity
-
-Optional ML fallback (TF-IDF + Logistic Regression)
-
-Regex-based metadata extraction
-
-Batch folder processing
-
-Excel & PDF reporting
-
-Streamlit dashboard with SQLite history
-
-AI Decision Logic (Priority-Based)
-
-Zero-Shot LLM
-
-Embedding Similarity
-
-ML TF-IDF Classifier (if available)
-
-Output Includes
-
-Predicted document label
-
-Confidence score
-
-AI method used
-
-Extracted metadata
-
-2️⃣ 📑 Claims Description Normalizer (Agentic Claims AI)
-
-Purpose:
-Transforms messy insurance claim inputs (text, voice, images) into structured, actionable claim intelligence.
-
-Core Features
-
-Loss type, severity & affected asset detection
-
-Auto-translation (Hindi / Marathi → English)
-
-Fraud risk estimation
-
-ML fallback classifier
-
-YOLO-based vehicle damage detection
-
-Voice-to-text claim intake
-
-Enterprise-grade PDF claim reports
-
-Automated email delivery
-
-SQLite history logging
-
-Analytics dashboard (fraud & severity trends)
-
-Supported Inputs
-
-Free-text claims
-
-Voice recordings
-
-Accident images
-
-Mixed-language claims
-
-3️⃣ 🛡️ Fraud Detection Copilot
-
-Purpose:
-AI-powered fraud scoring and analytics system for identifying high-risk insurance claims.
-
-Technical Highlights
-
-XGBoost ML model with SMOTE balancing
-
-Hybrid risk scoring (ML + rules + text similarity)
-
-TF-IDF cosine similarity against known fraud cases
-
-Automatic threshold-based risk categorization
-
-PDF fraud summary reports
-
-Email alerts for high-risk claims
-
-Streamlit analytics dashboard
-
-SQLite-based audit storage
-
-Fraud Risk Categories
-
-Low
-
-Medium
-
-High
-
-4️⃣ 📘🤖 Agentic Policy Summary Assistant
-
-Purpose:
-Converts lengthy insurance policy PDFs into easy-to-understand summaries and structured compliance data.
-
-Key Outputs
-
-Plain-English policy summaries
-
-Structured JSON:
-
-Coverage
-
-Exclusions
-
-Limits
-
-Eligibility
-
-Waiting periods
-
-Disclaimers
-
-Hindi & Marathi translations
-
-Downloadable PDF reports
-
-Master report generation (10+ PDFs)
-
-Policy-aware chatbot
-
-Full history tracking & analytics
-
-Chatbot Modes
-
-Normal Chatbot
-
-Policy-Based Only (answers strictly from uploaded policy)
 
 🏗️ Architecture Overview
 
@@ -244,6 +86,7 @@ PDF / Image / Text / Voice / CSV
 
 
 🗂 Combined Project Structure
+```text
 insurance-genai-solutions/
 │
 ├── document_classifier/
@@ -269,32 +112,35 @@ insurance-genai-solutions/
 ├── requirements.txt
 ├── .env
 └── README.md
+```
+## ⚙️ Technology Stack
 
-⚙️ Technology Stack
+a. **LLMs:** Azure OpenAI (GPT-4 / GPT-4o)
 
-LLMs: Azure OpenAI (GPT-4 / GPT-4o)
+b. **NLP:** HuggingFace Transformers, Sentence-Transformers
 
-NLP: HuggingFace Transformers, Sentence-Transformers
+c. **ML:** XGBoost, Scikit-Learn, SMOTE
 
-ML: XGBoost, Scikit-Learn, SMOTE
+d. **Vision:** YOLOv8, OpenCV
 
-Vision: YOLOv8, OpenCV
+e. **OCR:** pdfplumber, pytesseract
 
-OCR: pdfplumber, pytesseract
+f. **UI:** Streamlit
 
-UI: Streamlit
+g. **Storage:** SQLite
 
-Storage: SQLite
+h. **Reporting:** ReportLab, FPDF
 
-Reporting: ReportLab, FPDF
+i. **Email:** SMTP (Yagmail)
 
-Email: SMTP (Yagmail)
+## 🚀 Setup & Execution
 
-🚀 Setup & Execution
-Install Dependencies
+### Install Dependencies
+
 pip install -r requirements.txt
 
-Configure Environment Variables (.env)
+## Configure Environment Variables (.env)
+```text
 AZURE_OPENAI_API_KEY=
 AZURE_OPENAI_ENDPOINT=
 AZURE_OPENAI_API_VERSION=
@@ -303,27 +149,189 @@ AZURE_OPENAI_DEPLOYMENT=
 EMAIL_USER=
 EMAIL_PASSWORD=
 NOTIFY_EMAIL_TO=
-
-Run Any Module
-
+```
+## Run Any Module
+```text
 cd <module_folder>
 python main.py
 # OR
 streamlit run app.py
+```
+
+## 🧠 Included AI Systems
+
+## 1️⃣ 📄🤖 AI Insurance Document Classification Agent
+
+### Purpose:
+Automatically classifies insurance documents from PDFs or scanned images into standard document types.
+
+### Supported Document Types
+
+   a. Invoice
+
+   b. Claim Form
+
+   c. Insurance Policy
+
+   d. Inspection Report
+
+### Key Capabilities
+
+   a. PDF & Image OCR (pdfplumber, pytesseract)
+
+   b. Zero-Shot LLM classification (facebook/bart-large-mnli)
+
+   c. Sentence-Transformer embedding similarity
+
+   d. Optional ML fallback (TF-IDF + Logistic Regression)
+
+   e. Regex-based metadata extraction
+
+   f. Batch folder processing
+
+   g. Excel & PDF reporting
+
+   h. Streamlit dashboard with SQLite history
+
+### AI Decision Logic (Priority-Based)
+
+   a. Zero-Shot LLM
+
+   b. Embedding Similarity
+
+   c. ML TF-IDF Classifier (if available)
+
+### Output Includes
+
+   a. Predicted document label
+
+   b. Confidence score
+
+   c. AI method used
+
+   d. Extracted metadata
+
+## 2️⃣ 📑 Claims Description Normalizer (Agentic Claims AI)
+
+### Purpose:
+Transforms messy insurance claim inputs (text, voice, images) into structured, actionable claim intelligence.
+
+### Core Features
+
+   a. Loss type, severity & affected asset detection
+   
+   b. Auto-translation (Hindi / Marathi → English)
+
+   c. Fraud risk estimation
+
+   d. ML fallback classifier
+
+   e. YOLO-based vehicle damage detection
+
+   f. Voice-to-text claim intake
+
+   g. Enterprise-grade PDF claim reports
+
+   h. Automated email delivery
+
+   i. SQLite history logging
+
+   j. Analytics dashboard (fraud & severity trends)
+
+### Supported Inputs
+
+   a. Free-text claims
+
+   b. Voice recordings
+
+   c. Accident images
+
+   d. Mixed-language claims
+
+## 3️⃣ 🛡️ Fraud Detection Copilot
+
+### Purpose:
+AI-powered fraud scoring and analytics system for identifying high-risk insurance claims.
+
+### Technical Highlights
+
+   a. XGBoost ML model with SMOTE balancing
+
+   b. Hybrid risk scoring (ML + rules + text similarity)
+
+   c. TF-IDF cosine similarity against known fraud cases
+
+   d Automatic threshold-based risk categorization
+
+   e. PDF fraud summary reports
+
+   f. Email alerts for high-risk claims
+
+   g. Streamlit analytics dashboard
+
+   h. SQLite-based audit storage
+
+### Fraud Risk Categories
+
+   a. Low
+
+   b. Medium
+
+   c. High
+
+## 4️⃣ 📘🤖 Agentic Policy Summary Assistant
+
+### Purpose:
+Converts lengthy insurance policy PDFs into easy-to-understand summaries and structured compliance data.
+
+### Key Outputs
+
+#### Plain-English policy summaries
+
+#### Structured JSON:
+
+   a. Coverage
+
+   b. Exclusions
+
+   c. Limits
+
+   d. Eligibility
+
+   e. Waiting periods
+
+   f. Disclaimers
+
+#### Hindi & Marathi translations
+
+#### Downloadable PDF reports
+
+#### Master report generation (10+ PDFs)
+
+#### Policy-aware chatbot
+
+#### Full history tracking & analytics
+
+### Chatbot Modes
+
+  a. Normal Chatbot
+
+  b. Policy-Based Only (answers strictly from uploaded policy)
+
 
 ## 📈 Future Enhancements
 
-FastAPI microservices for all modules
+   a. FastAPI microservices for all modules
 
-Centralized RAG knowledge base
+   b. Centralized RAG knowledge base
 
-JWT authentication & role-based access
+   c. JWT authentication & role-based access
 
-SHAP-based fraud explainability
+   d. SHAP-based fraud explainability
 
-Cloud deployment (Azure / AWS)
+   e. Cloud deployment (Azure / AWS)
 
-Real-time claim ingestion (Kafka)
+   f. Real-time claim ingestion (Kafka)
 
 ## ✨ Developed By
 
