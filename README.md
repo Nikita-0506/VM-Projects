@@ -336,5 +336,6 @@ Converts lengthy insurance policy PDFs into easy-to-understand summaries and str
 ## ✨ Developed By
 
 #### Nikita Pachkate
-Insurance AI Engineer & Data Scientist
+#### Insurance AI Engineer & Data Scientist
+
 Specializing in GenAI-powered insurance automation, risk intelligence, and decision-support systems.
