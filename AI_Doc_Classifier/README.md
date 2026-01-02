@@ -12,7 +12,7 @@ A hybrid NLP-powered system that analyzes PDF or scanned image documents and aut
 
 Using OCR extraction + Zero-Shot LLM classification + Sentence Embedding matching + Optional ML classifier, this tool enables batch folder processing, Excel/PDF reporting, and a full Streamlit dashboard with history logging.
 
-## This project demonstrates:
+### This project demonstrates:
 
    a. PDF & Image OCR (pdfplumber + pytesseract)
 
@@ -50,7 +50,7 @@ Using OCR extraction + Zero-Shot LLM classification + Sentence Embedding matchin
 
 ### 🧠 AI Classification Modes (Priority-Based)
 
-When classifying a document, system chooses BEST-match using:
+A. When classifying a document, system chooses BEST-match using:
 
    a. Zero-shot model
 
@@ -58,7 +58,7 @@ When classifying a document, system chooses BEST-match using:
 
    c. ML TF-IDF classifier (if exists)
 
-Output includes:
+B. Output includes:
 
    a. Best predicted label
 
@@ -68,7 +68,7 @@ Output includes:
    
 ### 🔍 Metadata Extraction (Regex)
 
-Extracts:
+#### Extracts:
 
    a. Invoice No – INV-XXXX
 
@@ -80,7 +80,7 @@ Extracts:
 
 ### 📁 Batch Folder Processing
 
-Run classification for multiple documents in a directory → auto-generate:
+#### Run classification for multiple documents in a directory → auto-generate:
 
    a. results.xlsx
 
@@ -210,6 +210,7 @@ project/
 
 Nikita Pachkate
 Data Scientist – Insurance AI Automation Specialis
+
 
 
 
