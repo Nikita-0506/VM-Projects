@@ -4,7 +4,7 @@ A production-ready AI system that converts raw insurance claim text into structu
 Includes ML fallback classifier, rule-based engines, YOLO-based image damage analysis, voice-to-text claim intake, history dashboard, and email PDF delivery.
 
 
-# 1. Overview
+## 1. Overview
 
 Insurance claims often arrive as messy natural-language text, voice calls, or damaged-vehicle photos. Manual review is slow and error-prone.
 
@@ -24,7 +24,7 @@ This solution provides:
 | Database Storage     | Logs history into SQLite                               |
 | Analytics Dashboard  | Visual charts (severity, fraud, daily count)           |
 
-# 2. System Architecture
+## 2. System Architecture
 ```text
 +----------------------+          +-------------------------+
 |  User Input (Text)   | -------> | Azure OpenAI GPT Agent  |
@@ -52,7 +52,7 @@ Images -------> YOLOv8 Car Detection ---------+
                                      SQLite History + Analytics
 
 ```
-# 3. Project Structure
+## 3. Project Structure
 ```text
 project/
 ├── main.py               # Terminal CLI normalizer
@@ -61,7 +61,7 @@ project/
 ├── .env                  # API Keys + Email creds
 ├── README.md             # Documentation
 ```
-# 4. Requirements
+## 4. Requirements
 
 System Dependencies
 
@@ -74,7 +74,7 @@ Python Libraries
   pip install streamlit openai python-dotenv sklearn langdetect reportlab ultralytics
   pip install pillow numpy yagmail speechrecognition pydub opencv-python
 
-# 5. Environment Configuration (.env)
+## 5. Environment Configuration (.env)
 
 Create a .env file at project root:
 
@@ -86,7 +86,7 @@ AZURE_OPENAI_DEPLOYMENT=gpt-model-name
 EMAIL_USER=yourgmail@gmail.com
 EMAIL_PASSWORD=your-app-password
 
-# 6. Running the Application
+## 6. Running the Application
 A. CLI Mode (main.py)
 
 python main.py
@@ -116,7 +116,7 @@ B. Streamlit Web Portal
 
        e. Analytics Dashboard
 
-# 7. Demo Example
+## 7. Demo Example
 
    Input Text
 
@@ -137,53 +137,54 @@ B. Streamlit Web Portal
         
         Tow vehicle immediately OR Start repair process
 
-# 8. PDF Report Output
+## 8. PDF Report Output
 
-Automated enterprise-layout PDF contains:
+### Automated enterprise-layout PDF contains:
 
-Claim ID + Policy
+    a. Claim ID + Policy
 
-AI language notes
+    b. AI language notes
 
-Incident details
+    c. Incident details
 
-Fraud Level
+    d. Fraud Level
 
-Recommended Next Action
+    e. Recommended Next Action
 
-Summary Text
+    f. Summary Text
 
 Example PDF name:
 
 POL-9938833-CLM-A73E.pdf
 
-# 9. Email Sending
+## 9. Email Sending
 
-PDF is attached and emailed automatically:
+    a. PDF is attached and emailed automatically:
 
-Subject: Insurance Claim Report – POL-xxxx-CLM-yyyy
-Customer receives PDF report
+    b. Subject: Insurance Claim Report – POL-xxxx-CLM-yyyy
+       Customer receives PDF report
 
-# 10. Database Logging (SQLite)
+## 10. Database Logging (SQLite)
 
-All processed claims are stored:
+### All processed claims are stored:
 
-claim_id, policy_no, summary, fraud_score, severity, asset, created_on
+    a. claim_id, policy_no, summary, fraud_score, severity, asset, created_on
 
 
-History screen displays full log table.
+     b. History screen displays full log table.
 
-# 11. Analytics Dashboard
+## 11. Analytics Dashboard
 
-Visual charts:
+### Visual charts:
 
-Claims count per day
+    a. Claims count per day
 
-Fraud-level distribution
+    b. Fraud-level distribution
 
-Severity distribution
+    c. Severity distribution
 
-# 12. Use Cases
+## 12. Use Cases
+
 Industry	Use Case
 Auto Insurance	Accident claims automation
 Property Insurance	Fire / theft damage documentation
@@ -191,15 +192,15 @@ BPO Call-Centers	Voice-based intake + transcription
 Inspection Teams	Field photo upload → instant AI assessment
 Fraud Control	Auto-risk-flagging pipeline
 
-# 13. Future Enhancements (Suggested Roadmap)
+## 13. Future Enhancements (Suggested Roadmap)
 
-RAG knowledge-base policy validation
+    a. RAG knowledge-base policy validation
 
-Multi-language voice call ingestion (Telugu, Tamil)
+    b. Multi-language voice call ingestion (Telugu, Tamil)
 
-OCR extraction from documents/invoices
+    c. OCR extraction from documents/invoices
 
-Integration with CRM systems (Salesforce / Guidewire)
+    d. Integration with CRM systems (Salesforce / Guidewire)
 
 # ✨ Developed By:
 
