@@ -1,4 +1,4 @@
-# CLAIMS DESCRIPTION NORMALIZER – AI INSURANCE ENGINE
+# CLAIMS DESCRIPTION NORMALIZER
 
 A production-ready AI system that converts raw insurance claim text into structured JSON, identifies loss type, severity, affected asset, evaluates fraud probability, and auto-generates claim summaries + PDF reports.
 Includes ML fallback classifier, rule-based engines, YOLO-based image damage analysis, voice-to-text claim intake, history dashboard, and email PDF delivery.
