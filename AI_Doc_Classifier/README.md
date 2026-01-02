@@ -182,10 +182,11 @@ project/
 │── results.xlsx                # Generated output
 │── results.pdf                 # Generated PDF report
 │── requirements.txt
-│── README.md
+│── README.mdte
 
 
-** ## 4 Future Enhancements **
+
+## 4 Future Enhancements
 
    a. FastAPI backend → REST endpoints (/classify, /upload, /results)
 
@@ -201,3 +202,4 @@ project/
 
 Nikita Pachkate
 Data Scientist – Insurance AI Automation Specialis
+
