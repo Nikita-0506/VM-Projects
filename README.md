@@ -333,3 +333,7 @@ Converts lengthy insurance policy PDFs into easy-to-understand summaries and str
 
    f. Real-time claim ingestion (Kafka)
 
+## License
+
+This is a demo project for educational purposes.
+
