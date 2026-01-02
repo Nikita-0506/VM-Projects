@@ -158,7 +158,7 @@ Database	         Saves logs to history.db
 ## D. Example JSON Output
 
 (Not actual run output — formatted for documentation)
-
+```text
 {
   "file": "car_policy.pdf",
   "label": "Insurance Policy",
@@ -171,7 +171,7 @@ Database	         Saves logs to history.db
     "date": "12-08-2024"
   }
 }
-
+```
 ## 3 Folder Structure
 
 ```text
@@ -204,6 +204,7 @@ project/
 
 Nikita Pachkate
 Data Scientist – Insurance AI Automation Specialis
+
 
 
 
