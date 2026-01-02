@@ -17,7 +17,7 @@ This repository consolidates four production-ready insurance AI applications int
 | Policy Understanding | Long, complex policy PDFs             | Plain-English summaries + chatbot             |
 
 🏗️ Architecture Overview
-
+```text
 ┌──────────────────────────────────────────────────────────────────────────┐
 │                    INSURANCE GENAI SOLUTIONS SUITE                        │
 ├──────────────────────────────────────────────────────────────────────────┤
@@ -53,7 +53,7 @@ This repository consolidates four production-ready insurance AI applications int
 │  │ • Modular & Scalable Architecture • Email & Report Automation      │ │
 │  └────────────────────────────────────────────────────────────────────┘ │
 └──────────────────────────────────────────────────────────────────────────┘
-
+```
 
 🧩 High-Level Architecture
 ```text
