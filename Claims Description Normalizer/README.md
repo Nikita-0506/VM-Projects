@@ -185,12 +185,16 @@ POL-9938833-CLM-A73E.pdf
 
 ## 12. Use Cases
 
-Industry	Use Case
-Auto Insurance	Accident claims automation
-Property Insurance	Fire / theft damage documentation
-BPO Call-Centers	Voice-based intake + transcription
-Inspection Teams	Field photo upload → instant AI assessment
-Fraud Control	Auto-risk-flagging pipeline
+### Industry Use Cases
+
+| Industry           | Use Case                                   |
+|--------------------|---------------------------------------------|
+| Auto Insurance     | Accident claims automation                  |
+| Property Insurance | Fire / theft damage documentation           |
+| BPO Call-Centers   | Voice-based intake + transcription          |
+| Inspection Teams   | Field photo upload → instant AI assessment  |
+| Fraud Control      | Auto-risk-flagging pipeline                 |
+
 
 ## 13. Future Enhancements (Suggested Roadmap)
 
