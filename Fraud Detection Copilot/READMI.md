@@ -162,7 +162,7 @@ claim_amount,repair_estimate,previous_claims,days_since_last_claim,description,f
 20000,50000,3,12,"rear bumper hit, no witnesses",0.84,"High"
 
 
-## 📁 5 Folder Structure
+## 📁 2 Folder Structure
 ```text
 project/
 │── main.py                         # ML training + CLI + PDF email sender
