@@ -202,8 +202,6 @@ Uses Streamlit + Matplotlib + SQLite:
 
 
 
-## ✨ Developed By
+## License
 
-#### Nikita Pachkate
-
-AI & Data Science Engineer – Insurance Intelligence Solutions
+This is a demo project for educational purposes.
