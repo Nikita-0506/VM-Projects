@@ -157,10 +157,10 @@ http://localhost:8501
 
 
 ## 📊 Example Output CSV (Model Prediction)
-
+```text
 claim_amount,repair_estimate,previous_claims,days_since_last_claim,description,fraud_probability,risk
 20000,50000,3,12,"rear bumper hit, no witnesses",0.84,"High"
-
+```
 
 ## 📁 2 Folder Structure
 ```text
