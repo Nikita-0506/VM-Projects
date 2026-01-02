@@ -31,16 +31,19 @@ Using OCR extraction + Zero-Shot LLM classification + Sentence Embedding matchin
 
 ## 1️ Architecture Overview
 
-Component                      	Technology
+### System Components & Technology Stack
 
-Backend Engine              	Python – CLI Script
-OCR Engine	                  pdfplumber, pytesseract
-NLP Classification	          facebook/bart-large-mnli
-Embedding Similarity	        Sentence Transformers
-Optional ML Classifier      	TF-IDF Vectorizer + Joblib Model
-UI Interface                	Streamlit (app.py)
-Storage                     	SQLite history.db
-Reporting                   	ReportLab – PDF Export
+| Component               | Technology                                   |
+|------------------------|-----------------------------------------------|
+| Backend Engine         | Python – CLI Script                           |
+| OCR Engine             | pdfplumber, pytesseract                      |
+| NLP Classification     | facebook/bart-large-mnli                     |
+| Embedding Similarity   | Sentence Transformers                        |
+| Optional ML Classifier | TF-IDF Vectorizer + Joblib Model             |
+| UI Interface           | Streamlit (app.py)                           |
+| Storage                | SQLite (history.db)                          |
+| Reporting              | ReportLab – PDF Export                       |
+
 
 
 ## 2️ Core Features
@@ -204,6 +207,7 @@ project/
 
 Nikita Pachkate
 Data Scientist – Insurance AI Automation Specialis
+
 
 
 
