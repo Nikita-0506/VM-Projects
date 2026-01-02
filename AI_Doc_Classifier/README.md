@@ -170,8 +170,9 @@ Database	         Saves logs to history.db
   }
 }
 
-## 3 Folder Structure
+## Folder Structure
 
+```text
 project/
 │── main.py                     # CLI document classifier
 │── app.py                      # Streamlit dashboard
@@ -199,6 +200,7 @@ project/
 
 Nikita Pachkate
 Data Scientist – Insurance AI Automation Specialist
+
 
 
 
