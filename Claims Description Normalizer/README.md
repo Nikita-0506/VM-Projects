@@ -63,13 +63,13 @@ project/
 ```
 ## 4. Requirements
 
-A. System Dependencies
+#### System Dependencies
 
    a. Python 3.9+
 
    b. GPU optional (for YOLO acceleration)
 
-B. Python Libraries
+#### Python Libraries
 
    a.  pip install streamlit openai python-dotenv sklearn langdetect reportlab ultralytics
    b.  pip install pillow numpy yagmail speechrecognition pydub opencv-python
@@ -87,19 +87,20 @@ EMAIL_USER=yourgmail@gmail.com
 EMAIL_PASSWORD=your-app-password
 
 ## 6. Running the Application
-A. CLI Mode (main.py)
+
+#### CLI Mode (main.py)
 
 python main.py
 
  a. Enter Claim Text: My car hit a bike yesterday, bumper broken. Policy 9043321
 
- b .Output:
+ b. Output:
 
    1. JSON result
 
    2. Human-readable summary
 
-B. Streamlit Web Portal
+#### Streamlit Web Portal
    
    1. streamlit run streamlit.py
 
@@ -118,12 +119,12 @@ B. Streamlit Web Portal
 
 ## 7. Demo Example
 
-   Input Text
+  #### Input Text
 
       Kal mera car accident hua bike se takkar. Bumper damage. Policy number 9938833
 
 
-   Output JSON
+  #### Output JSON
 
       {
         "loss_type": "Accident",
@@ -139,7 +140,7 @@ B. Streamlit Web Portal
 
 ## 8. PDF Report Output
 
-### Automated enterprise-layout PDF contains:
+#### Automated enterprise-layout PDF contains:
 
    a. Claim ID + Policy
 
@@ -153,7 +154,7 @@ B. Streamlit Web Portal
 
    f. Summary Text
 
-### Example PDF name:
+#### Example PDF name:
 
 POL-9938833-CLM-A73E.pdf
 
@@ -166,7 +167,7 @@ POL-9938833-CLM-A73E.pdf
 
 ## 10. Database Logging (SQLite)
 
-### All processed claims are stored:
+#### All processed claims are stored:
 
    a. claim_id, policy_no, summary, fraud_score, severity, asset, created_on
 
@@ -175,7 +176,7 @@ POL-9938833-CLM-A73E.pdf
 
 ## 11. Analytics Dashboard
 
-### Visual charts:
+#### Visual charts:
 
    a. Claims count per day
 
@@ -208,5 +209,5 @@ POL-9938833-CLM-A73E.pdf
 
 ## ✨ Developed By:
 
-**Nikita Pachkate**  
+#### Nikita Pachkate 
 Data Scientist & AI Project Developer
