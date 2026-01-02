@@ -225,7 +225,6 @@ project/
 
    e. Integrate GPT-RAG document search across multiple policies
 
-## ✨ Developed By
+## License
 
-#### Nikita Pachkate
-Insurance AI Engineer & Data Scientist
+This is a demo project for educational purposes.
