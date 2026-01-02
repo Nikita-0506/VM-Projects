@@ -207,7 +207,6 @@ POL-9938833-CLM-A73E.pdf
 
    d. Integration with CRM systems (Salesforce / Guidewire)
 
-## ✨ Developed By:
+## License
 
-#### Nikita Pachkate 
-Data Scientist & AI Project Developer
+This is a demo project for educational purposes.
