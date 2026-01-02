@@ -206,6 +206,11 @@ project/
 
    e. Smart section extraction → e.g., “Policy Period”, “Premium Due”, “Claim Reason”
 
+## License
+
+This is a demo project for educational purposes.
+
+
 
 
 
