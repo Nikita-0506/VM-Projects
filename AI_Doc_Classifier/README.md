@@ -172,6 +172,7 @@ Database	         Saves logs to history.db
 
 ## 3 Folder Structure
 
+project/
 │── main.py                     # CLI document classifier
 │── app.py                      # Streamlit dashboard
 │── document_classifier.pkl     # Optional ML model (if trained)
@@ -198,5 +199,6 @@ Database	         Saves logs to history.db
 
 Nikita Pachkate
 Data Scientist – Insurance AI Automation Specialist
+
 
 
