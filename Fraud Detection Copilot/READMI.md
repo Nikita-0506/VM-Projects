@@ -204,5 +204,6 @@ Uses Streamlit + Matplotlib + SQLite:
 
 ### ✨ Developed By
 
-Nikita Pachkate
+#### Nikita Pachkate
+
 AI & Data Science Engineer – Insurance Intelligence Solutions
