@@ -53,14 +53,14 @@ Images -------> YOLOv8 Car Detection ---------+
 
 
 # 3. Project Structure
-
-.
+```text
+project/
 ├── main.py               # Terminal CLI normalizer
 ├── streamlit.py          # Web UI with OCR, Image, Voice features
 ├── claims.db             # Local DB (auto-created)
 ├── .env                  # API Keys + Email creds
 ├── README.md             # Documentation
-
+```
 # 4. Requirements
 
 System Dependencies
