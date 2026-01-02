@@ -25,7 +25,7 @@ This solution provides:
 | Analytics Dashboard  | Visual charts (severity, fraud, daily count)           |
 
 # 2. System Architecture
-
+```text
 +----------------------+          +-------------------------+
 |  User Input (Text)   | -------> | Azure OpenAI GPT Agent  |
 +----------------------+          +-------------------------+
@@ -51,7 +51,7 @@ Images -------> YOLOv8 Car Detection ---------+
                                               v
                                      SQLite History + Analytics
 
-
+```
 # 3. Project Structure
 ```text
 project/
