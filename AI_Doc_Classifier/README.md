@@ -50,7 +50,7 @@ Using OCR extraction + Zero-Shot LLM classification + Sentence Embedding matchin
 
 ### 🧠 AI Classification Modes (Priority-Based)
 
-A. When classifying a document, system chooses BEST-match using:
+#### When classifying a document, system chooses BEST-match using:
 
    a. Zero-shot model
 
@@ -58,7 +58,7 @@ A. When classifying a document, system chooses BEST-match using:
 
    c. ML TF-IDF classifier (if exists)
 
-B. Output includes:
+#### Output includes:
 
    a. Best predicted label
 
@@ -163,7 +163,7 @@ PDF report saved → results.pdf
 
 ## D. Example JSON Output
 
-(Not actual run output — formatted for documentation)
+#### (Not actual run output — formatted for documentation)
 ```text
 {
   "file": "car_policy.pdf",
@@ -208,8 +208,9 @@ project/
 
 ## ✨ Developed By
 
-Nikita Pachkate
+#### Nikita Pachkate
 Data Scientist – Insurance AI Automation Specialis
+
 
 
 
