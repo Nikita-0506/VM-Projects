@@ -206,10 +206,7 @@ project/
 
    e. Smart section extraction → e.g., “Policy Period”, “Premium Due”, “Claim Reason”
 
-## ✨ Developed By
 
-#### Nikita Pachkate
-#### Data Scientist – Insurance AI Automation Specialis
 
 
 
